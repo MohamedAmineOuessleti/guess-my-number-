@@ -1,48 +1,83 @@
 .TfirstPage{
 font-size: xx-large;
     text-align: center;
-color: red;
+color: rgb(70, 82, 146);
 text-transform: uppercase;
 
 }
 .background{
-    border: 5px solid #000000;
+    border: 10px solid #000000;
     border-radius: 5px;
     width: 1000px;
 }
 .button{
-    border: none;
-  color: rgb(172, 0, 0);
-  background-color: rgb(6, 65, 65);
-  padding: 4px 90px;
-  font-size: 35px;
-  margin: 4px 670px;
-  cursor: pointer;
+  background-color: rgb(181, 116, 116); 
+  font-size: 40px;
+  margin: 60px 650px ;
 }
-body{
-    background-color: #000000;
-}
+
 .imgRight{
     border: 5px solid #000000;
     border-radius: 5px;
     width: 480px;
     float: right;
 }
-.input{
-
-    width: 200px;
-height :50px;
-margin-left: 45%;    
-margin: 100px 600px;              
-    
+.imgleft{
+    width:500px;
+    float: left;
 }
-.a{
-    color: aliceblue;
- text-align: center;
+.Guess{
+    width: 170px;
+    height: 50px;
+ margin: 40px 190px;
+ margin: 4px 8px;
 }
-.guess{
-    margin-left: 45%; 
-    margin: 1px 700px; 
+.guessInput{
     width: 100px;
     height: 50px;
+ margin: 20px 2px;
+ 
+
+}
+/* .a{
+    color: rgb(50, 84, 113);
+ text-align: center;
+height: auto;
+} */
+/* .guess{
+   
+    width: 110px;
+    height: 50px;
+ margin: 40px 225px;
+
+} */
+body { 
+    background:
+            linear-gradient(
+                    cyan ,
+                    rgba(255,255,255,0) 
+            ),
+            linear-gradient(
+                    -45deg,
+                    magenta,
+                    rgba(255,255,255,0) 
+            ),
+            linear-gradient(
+                    45deg,
+                    orange,
+                    rgba(255,255,255,0) 
+            );
+    background-blend-mode: screen;
+    background-attachment: fixed; 
+}
+body {
+    
+    text-align: center;
+}
+.result {
+    font-size: 40px;
+    margin-top: 5px;
+}
+.move{
+    height: 30px;
 }
