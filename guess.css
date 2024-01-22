@@ -1,0 +1,48 @@
+.TfirstPage{
+font-size: xx-large;
+    text-align: center;
+color: red;
+text-transform: uppercase;
+
+}
+.background{
+    border: 5px solid #000000;
+    border-radius: 5px;
+    width: 1000px;
+}
+.button{
+    border: none;
+  color: rgb(172, 0, 0);
+  background-color: rgb(6, 65, 65);
+  padding: 4px 90px;
+  font-size: 35px;
+  margin: 4px 670px;
+  cursor: pointer;
+}
+body{
+    background-color: #000000;
+}
+.imgRight{
+    border: 5px solid #000000;
+    border-radius: 5px;
+    width: 480px;
+    float: right;
+}
+.input{
+
+    width: 200px;
+height :50px;
+margin-left: 45%;    
+margin: 100px 600px;              
+    
+}
+.a{
+    color: aliceblue;
+ text-align: center;
+}
+.guess{
+    margin-left: 45%; 
+    margin: 1px 700px; 
+    width: 100px;
+    height: 50px;
+}
