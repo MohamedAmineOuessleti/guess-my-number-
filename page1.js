@@ -13,3 +13,4 @@ var guess = (userGuess < secretNumber) ? 'Too low. Try again!' : 'Too high. Try 
  $('.guessInput').val('');
             });
         });
+         
